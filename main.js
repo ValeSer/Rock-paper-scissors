@@ -23,3 +23,7 @@ const getComputerChoice = () => {
         return 'scissors';
     }
   }
+
+console.log(getComputerChoice());
+console.log(getComputerChoice());
+console.log(getComputerChoice());
