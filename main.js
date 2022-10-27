@@ -6,3 +6,6 @@ const getUserChoice = userInput => {
       console.log('Choice not valid');
     }
   }
+
+getUserChoice('rock');
+getUserChoice('rocgk');
