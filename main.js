@@ -10,7 +10,8 @@ const getUserChoice = userInput => {
 getUserChoice('rock');
 getUserChoice('rocgk');
 
-const getComputerChoice = () => Math.floor(Math.random() * 3); {
+const getComputerChoice = () => {
+    const randomNumber = Math.floor(Math.random() * 3); 
     switch (randomNumber) {
       case 0:
         return 'rock';
