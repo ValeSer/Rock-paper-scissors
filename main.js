@@ -46,4 +46,18 @@ const determineWinner = (userChoice, computerChoice) => {
           return 'You won!';
         }
       }
+    if (userChoice === 'scissors') {
+      if (computerChoice === 'rock') {
+        return 'Computer won';
+      } else {
+        return 'You won!';
+      }
+    }
   }
+  
+  console.log(determineWinner('rock', 'paper'));
+  console.log(determineWinner('paper', 'scissors'));
+  console.log(determineWinner('scissors', 'rock'));
+  console.log(determineWinner('rock', 'rock'));
+  console.log(determineWinner('rock', 'scissors'));
+  console.log(determineWinner('scissors', 'paper'));
