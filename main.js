@@ -30,6 +30,13 @@ console.log(getComputerChoice());
 
 const determineWinner = (userChoice, computerChoice) => {
     if (userChoice === computerChoice) {
-      return 'This is a tie!'
+      return 'This is a tie!';
+    }
+    if (userChoice === 'rock') {
+      if (computerChoice === 'paper') {
+        return 'Computer won';
+      } else {
+        return 'You won!';
+      }
     }
   }
