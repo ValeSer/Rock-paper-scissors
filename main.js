@@ -27,3 +27,9 @@ const getComputerChoice = () => {
 console.log(getComputerChoice());
 console.log(getComputerChoice());
 console.log(getComputerChoice());
+
+const determineWinner = (userChoice, computerChoice) => {
+    if (userChoice === computerChoice) {
+      return 'This is a tie!'
+    }
+  }
