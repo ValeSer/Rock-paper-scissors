@@ -39,4 +39,11 @@ const determineWinner = (userChoice, computerChoice) => {
         return 'You won!';
       }
     }
+    if (userChoice === 'paper') {
+        if (computerChoice === 'scissors') {
+          return 'Computer won';
+        } else {
+          return 'You won!';
+        }
+      }
   }
