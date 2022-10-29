@@ -61,3 +61,10 @@ const determineWinner = (userChoice, computerChoice) => {
   console.log(determineWinner('rock', 'rock'));
   console.log(determineWinner('rock', 'scissors'));
   console.log(determineWinner('scissors', 'paper'));
+
+  const playGame = () => {
+    const userChoice = getUserChoice('paper');
+    const computerChoice = getComputerChoice();
+    console.log(userChoice);
+    console.log(computerChoice);
+  };
